@@ -1,0 +1,50 @@
+body {
+	font: 13px arial, sans-serif;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	color: #222;
+	font-size: 8pt;
+}
+
+th {
+	font-weight: normal;
+	background-color: #eee;
+	border: 1px solid #ccc;
+	text-align: center;
+	vertical-align: middle;
+}
+
+thead th {
+	height: 23px;
+}
+
+tbody th {
+	height: 16px;
+	width: 45px;
+}
+
+tbody td {
+	height: 16px;
+	width: 120px;
+	overflow: hidden;
+	padding: 0 3px;
+	border-width: 0 1px 1px 0;
+	border: 1px solid #ccc;
+}
+
+.viewer {
+	position: relative;
+}
+
+.overlay {
+	background-color: rgba(82, 146, 247, .1);
+	position: absolute;
+	z-index: 10;
+}
+
+.hidden {
+	display: none;
+}
